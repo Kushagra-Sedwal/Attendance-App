@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">NMIMS Attendance</string>
+    <string name="my_courses"><b>My Courses</b></string>
+    <string name="add_course">Add Course</string>
+    <string name="madhav_malik">MADHAV MALIK</string>
+    <string name="kushagra_sedwal">KUSHAGRA SEDWAL</string>
+    <string name="tanish_patil">TANISH PATIL</string>
+    <string name="home">Home</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="nmims_attendance_app"><b>NMIMS ATTENDANCE APP</b></string>
+    <string name="got_a_dc">GOT A DC?</string>
+    <string name="allan_jose">ALLAN JOSE</string>
+</resources>

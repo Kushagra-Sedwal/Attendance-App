@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity_course_detail">
+
+    <!-- Course Name (Heading) -->
+    <TextView
+        android:id="@+id/course_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course Name"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <!-- Total Lectures and Attendance Status -->
+    <TextView
+        android:id="@+id/total_lectures_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Lectures: 0"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/attended_lectures_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lectures Attended: 0"
+        android:textSize="16sp" />
+
+    <!-- Attendance Summary -->
+    <TextView
+        android:id="@+id/attendance_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="16sp" />
+
+    <!-- Prediction Message -->
+    <TextView
+        android:id="@+id/prediction_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="" />
+
+    <!-- Buttons for marking attendance -->
+    <Button
+        android:id="@+id/btn_attended"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark Attended" />
+
+    <Button
+        android:id="@+id/btn_missed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mark Missed" />
+
+    <!-- Floating Action Button to Delete a Course -->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30pt"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/editAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="28dp"
+            android:contentDescription="edit_attendance"
+            android:src="@drawable/ic_undo" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/delete_course_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="28dp"
+            android:contentDescription="delete_course"
+            android:src="@drawable/ic_delete" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/dc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="16dp"
+        android:text="@string/got_a_dc">
+
+    </Button>
+
+
+
+
+</LinearLayout>

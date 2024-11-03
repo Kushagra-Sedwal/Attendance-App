@@ -1,0 +1,11 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient android:startColor="#AB2071A8"
+                android:endColor="#AA171073"
+                android:type="linear"> \\ can change to different types of gradients
+
+            </gradient>
+        </shape>
+    </item>
+</selector>

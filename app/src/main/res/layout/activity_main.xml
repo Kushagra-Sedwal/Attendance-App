@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="160dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#CECCCC">
+
+    <!-- Heading -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:text="@string/my_courses"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp" />
+
+    <ListView
+        android:id="@+id/courses_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
+
+    <!-- Button to add a new course -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_course_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_add"
+        android:contentDescription="@string/add_course"
+        android:layout_gravity="end"/>
+
+
+</LinearLayout>

@@ -7,7 +7,7 @@ Written in Java, this app allows users to easily log and manage attendance recor
 
 LANGUAGE : JAVA
 
-DATABASE : SQLITE
+DATABASE : SQLITE : Use DB browser to view the database
 
 
 You can change the App-icon in mipmap and startup logo in activity-logo.xml

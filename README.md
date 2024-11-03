@@ -1,7 +1,9 @@
 # Attendance-App
 
 
-The Attendance App is an Android application developed as a sem-end project to streamline the process of attendance tracking for classrooms or events. UWritten in Java, this app allows users to easily log and manage attendance records while generating insightful reports. Users can easily log attendance, view reports, and manage user data, enhancing the overall experience for educators and event organizers. 
+The Attendance App is an Android application developed as a sem-end project to streamline the process of attendance tracking for classrooms or events. 
+
+Written in Java, this app allows users to easily log and manage attendance records while generating insightful reports. Users can easily log attendance, view reports, and manage user data, enhancing the overall experience for educators and event organizers. 
 
 LANGUAGE : JAVA
 

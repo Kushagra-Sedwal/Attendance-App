@@ -7,7 +7,6 @@ LANGUAGE : JAVA
 
 DATABASE : SQLITE
 
-Min SDK : 26
 
-
+You can change the App-icon in mipmap and startup logo in activity-logo.xml
 ***Future enhancements may include features such as analytics, notifications, and integration with educational platforms.***
